@@ -1,0 +1,23 @@
+{
+	"name": "subtrackt",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon app.js",
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"cookie-parser": "^1.4.7",
+		"express": "^5.1.0",
+		"morgan": "^1.10.1"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.36.0",
+		"eslint": "^9.36.0",
+		"globals": "^16.4.0",
+		"nodemon": "^3.1.10"
+	}
+}
