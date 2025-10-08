@@ -3,7 +3,6 @@ import arcjet, { detectBot, shield, tokenBucket } from "@arcjet/node";
 const aj = arcjet({
 	key: process.env.ARCJET_KEY,
 	rules: [
-		{ mode: "allow", conditions: [{ ip: "127.0.0.1" }] },
 		shield({ mode: "LIVE" }),
 		detectBot({
 			mode: "LIVE",
